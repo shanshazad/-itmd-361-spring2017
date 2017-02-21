@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Volunteer Forum</title>
+  
+  
+<body>
+<section id="form">
+<h1>Volunteer Forum</h1>
+<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST">
+<fieldset id="info">
+
+  
+    
+<label>First Name: <input type="text" name="first_name_field"
+placeholder="First name"></label>
+<br>
+  
+<label>Last Name: <input type="text" name="last_name_field"
+placeholder="Last name"></label>
+<br>
+  
+  
+<label>Phone Number: <input type="tel" name="phone_field"
+placeholder="(XXX)-XXX-XXXX"></label>
+<br>
+  
+<label>Email Address: <input type="email" name="email_field" placeholder="youremail@example.com"></label>
+<br />
+  
+<label>Gender:</label>
+  
+<input type="radio" name="gender_field" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+
+<P>Age:</P>
+<select name="age_field">
+<option value="under 18">Under 18</option>
+<option value="18-24">18-24</option>
+<option value="25-35">25-35</option>
+<option value="36-50">36-50</option>
+<option value="50 - Over">40-Over</option>
+    </select>
+    
+    
+
+    
+    
+  
+  
+</fieldset>
+
+
+       <h3>My Availability</h3>
+      <label>Days Available : </label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Sunday"> Sunday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Monday"> Monday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Tuesday"> Tuesday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Wednesday"> Wednesday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Thursday"> Thursday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Friday"> Friday</label><br>
+  	  <label><input type="checkbox" name="available_field[]" value="Saturday"> Saturday</label><br><br>
+    
+    
+
+    
+<label>Any Comments?</label>
+
+<label for="commentsbox">Comments:</label><br>
+<textarea cols="30" rows="10" name="comments_field" placeholder="Comments" id="commentsbox"></textarea>
+
+
+<input type="hidden" name="hidden_field" value="Shan Shazad">
+
+
+<input type="submit" value="Submit">
+</form>
+</section>
+</body>
+</html>
